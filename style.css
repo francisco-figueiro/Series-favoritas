@@ -55,6 +55,7 @@ body{
     align-items:center;
     padding:50px;
     gap: 50px;
+    width: 90%;
 }
 
 a:hover{
@@ -70,4 +71,10 @@ a:hover{
     font-size: 1.12rem;
     padding: 14px;
     
+}
+
+@media (max-width:580px){
+    .series{
+        flex-direction: column;
+    }
 }
