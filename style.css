@@ -31,7 +31,7 @@ body{
 .cabecalho__titulo{
     color:var(--cor-textos);
     font-size: 2.37rem;
-    margin-left: 50px;
+    padding-left: 40px;
 }
 
 .cabecalho__menu{
@@ -39,7 +39,7 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-    margin-right: 50px;
+    padding-right: 130px;
 }
 
 .cabecalho__menu__link{
@@ -60,7 +60,6 @@ body{
 
 a:hover{
     background-color: var(--cor-hover);
-    border-shadow: 5px 5px 5px 5px;
 }
 
 .rodape__paragrafo{
@@ -70,10 +69,9 @@ a:hover{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.12rem;
     padding: 14px;
-    
 }
 
-@media (max-width:580px){
+@media (max-width:400px){
     .series{
         flex-direction: column;
     }
