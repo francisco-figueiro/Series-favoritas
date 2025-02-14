@@ -22,10 +22,11 @@ body{
 
 .cabecalho{
     background-color:var(--cor-cabecalho);
-    padding: 8px;
+    padding: 4px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .cabecalho__titulo{
@@ -39,7 +40,7 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-    padding-right: 130px;
+    padding-right: 80px;
 }
 
 .cabecalho__menu__link{
@@ -75,4 +76,5 @@ a:hover{
     .series{
         flex-direction: column;
     }
-}
+    
+    }
