@@ -32,7 +32,7 @@ body{
 .cabecalho__titulo{
     color:var(--cor-textos);
     font-size: 2.37rem;
-    padding-left: 40px;
+    margin-left: 40px;
 }
 
 .cabecalho__menu{
@@ -40,7 +40,7 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-    padding-right: 80px;
+    margin-right: 40px;
 }
 
 .cabecalho__menu__link{
@@ -50,17 +50,11 @@ body{
 }
 
 .series{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items:center;
-    padding:50px;
-    gap: 50px;
-    width: 90%;
-}
-
-a:hover{
-    background-color: var(--cor-hover);
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding:40px;
+    gap: 35px;
+    max-width: 100%;
 }
 
 .rodape__paragrafo{
