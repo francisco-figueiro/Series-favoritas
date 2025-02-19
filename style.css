@@ -4,7 +4,6 @@
     --cor-textos: #fff;
     --cor-cabecalho: #D71922;
     --cor-rodape: #000;
-    --cor-hover: #D71922;
 }
 
 *{
@@ -17,6 +16,8 @@ body{
     height: 100vh;
     background-image: url(imagens/background_image.jpg);
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family:"Bebas Neue", serif;
 }
 
@@ -26,7 +27,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .cabecalho__titulo{
