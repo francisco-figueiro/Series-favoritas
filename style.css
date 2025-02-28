@@ -9,10 +9,10 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    box-sizing: border-box;
     height: 100vh;
     background-image: url(imagens/background_image.jpg);
     background-attachment: fixed;
@@ -67,8 +67,7 @@ body{
 }
 
 @media (max-width:400px){
-    .series{
+    .series
+        display: flex;
         flex-direction: column;
-    }
-    
     }
